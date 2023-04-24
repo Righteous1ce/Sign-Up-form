@@ -1,3 +1,100 @@
-h1{
-    color: pink;
+.image-container{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin: 1px;
 }
+
+#logo-container{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+#odin-text{
+    color: aliceblue;
+    font-family: norse-bold;
+    font-size: 5rem;
+    line-height: 100px;
+    opacity: 1;
+}
+
+@font-face {
+    font-family: norse-bold;
+    src: url(./images/Norse-Bold.otf);
+}
+
+#logo {
+    opacity: 1;
+}
+
+.image-container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: transparent;
+    z-index: -1;
+}
+
+
+
+
+
+
+/*
+
+.image-container{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin: 1px;
+}
+
+
+#logo-container{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: transparent;
+    opacity: 0.5;
+    
+    
+}
+
+#odin-text{
+    color: aliceblue;
+    font-family: norse-bold;
+    font-size: 5rem;
+    line-height: 100px;
+    opacity: 1;
+    
+}
+
+
+@font-face {
+    font-family: norse-bold;
+    src: url(./images/Norse-Bold.otf);
+}
+
+
+.image-container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: -1;
+}
+
+*/
