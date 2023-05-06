@@ -4,26 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="image-container">
-
-    
-    <img id="background" src="./images/background.jpg" alt="Image of some tropical plants" width="500" height="100%">
-    <div id="logo-container">
-        <img id="logo" src="./images/odin-logo.png" alt="Odin Project logo" width="100" height="100"> 
-        <div id="odin-text">
-            <p>Odin</p>
-
+    <div class="container">
+        <div class="img">
+          <div class="img-description">
+            <p class="img-credit">Photo by Halie West on Unsplash</p>
+            <a href="https://unsplash.com/photos/25xggax4bSA">
+              <p class="img-credit">https://unsplash.com/photos/25xggax4bSA</p>
+            </a>
+          </div>
         </div>
-       
+        <div class="form">
+          <div class="form-text">
+            <h1>
+              Register today to join our exclusive community and receive access 
+              to the latest news and updates on a self-taught programmer. Our 
+              members enjoy exclusive perks, such as early access to events, 
+              freebies, and personalized recommendations tailored to their interests. 
+              Sign up <i>now!</i>
+              <br /><br />
+              You know you want to!
+            </h1>
+          </div>
+          <div class="input">
+            <div class="first-name">
+              <label for="first-name" class="form-label">First Name</label>
+              <input type="text" class="form-input" id="first-name" placeholder="First Name">
+            </div>
+            <div class="last-name">
+                <label for="last-name" class="form-label">Last Name</label>
+                <input type="text" class="form-input" id="last-name" placeholder="Last Name">
+            </div>
+            <div class="email">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-input" id="email" placeholder="user@email.com">
+            </div>
+            <div class="phone">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="numner" class="form-input" id="phone" placeholder="07395758591">
+            </div>
+            <div class="password">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-input" id="password" placeholder="Password">
+            </div>
+            <div class="conPass">
+                <label for="conPass" class="form-label">Confirm Password</label>
+                <input type="password" class="form-input" id="conPass" placeholder="Password">
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
 
 
-    </div>
-</div>
+
     
     
 </body>

@@ -1,83 +1,3 @@
-.image-container{
-    position: relative;
-    width: 50%;
-    height: 50%;
-    margin: 1px;
-}
-
-#logo-container{
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 1;
-}
-
-#odin-text{
-    color: aliceblue;
-    font-family: norse-bold;
-    font-size: 5rem;
-    line-height: 100px;
-    opacity: 1;
-}
-
-@font-face {
-    font-family: norse-bold;
-    src: url(./images/Norse-Bold.otf);
-}
-
-#logo {
-    opacity: 1;
-}
-
-.image-container::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
-    background-color: transparent;
-    z-index: -1;
-}
-
-
-
-
-
-
-/*
-
-.image-container{
-    position: relative;
-    width: 50%;
-    height: 50%;
-    margin: 1px;
-}
-
-
-#logo-container{
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    background-color: transparent;
-    opacity: 0.5;
-    
-    
-}
-
-#odin-text{
-    color: aliceblue;
-    font-family: norse-bold;
-    font-size: 5rem;
-    line-height: 100px;
-    opacity: 1;
-    
-}
 
 
 @font-face {
@@ -85,16 +5,89 @@
     src: url(./images/Norse-Bold.otf);
 }
 
-
-.image-container::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
-    background-color: rgba(0,0,0,0.5);
-    z-index: -1;
+.img {
+    display: flex;
+    width: 40vw;
+    height: 100vh;
+    margin: 0;
+    background: url(./images/background.jpg) no-repeat
+    center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+   
 }
 
-*/
+.img-description{
+    margin-top: auto;
+    margin-bottom: 10px;
+    color: aliceblue;
+    font-size: 100%;
+    font-weight: 600;
+}
+
+.img-description a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.form {
+    width: 60%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column; 
+}
+
+
+.form-text{
+    font-family: norse-bold;
+    color: #2e2e2e;
+    margin-left: 20px;
+    
+}
+
+.form {
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;
+    
+}
+
+.form > * {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.form-label{
+    font-weight: 900;
+    font-size: 20px;
+    display: block;
+}
+
+.form-input{
+    border: 2px solid gray;
+
+}
+
+.container {
+    display: flex;
+}
+
+form {
+    padding-top: 3%;
+    width: 80%;
+    margin-left: 0%;
+    background-color: #2e2e2e;
+}
+
+.input{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 20px;
+    color: darkgray;
+    
+}
