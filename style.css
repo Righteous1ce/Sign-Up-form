@@ -52,7 +52,7 @@
     width: 60%;
     margin: 0;
     padding: 0;
-    margin-top: 5%;
+    margin-top: 1%;
     
 }
 
@@ -68,7 +68,7 @@
 }
 
 .form-input{
-    border: 2px solid gray;
+    border: 3px solid gray;
 
 }
 
@@ -76,12 +76,7 @@
     display: flex;
 }
 
-form {
-    padding-top: 3%;
-    width: 80%;
-    margin-left: 0%;
-    background-color: #2e2e2e;
-}
+
 
 .input{
     display: grid;
@@ -89,5 +84,49 @@ form {
     grid-gap: 10px;
     margin-top: 20px;
     color: darkgray;
+    width: 60%;
     
 }
+
+.input [type=text]{
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+.input [type=email]{
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.password input[type=password]{
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.conPass input[type=password]{
+    padding: 10px;
+    margin:10px 0;
+    width: 80%;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.btn button{
+    background-color: #596D48;
+    padding: 10px;
+    width:200%;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+
+a {
+    color: #596D48;
+}
+
