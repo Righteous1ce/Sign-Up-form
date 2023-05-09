@@ -97,6 +97,10 @@
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
 
+.input:focus{
+    border-color: #596D48;
+}
+
 .password input[type=password]{
     padding: 10px;
     margin: 10px 0;
@@ -113,8 +117,7 @@
 
 .btn button{
     background-color: #596D48;
-    padding: 10px;
-    width:200%;
+    padding: 10px 70px;
     color: aliceblue;
     border-radius: 10px;
     cursor: pointer;
@@ -131,6 +134,10 @@ a {
       display: none;
     }
   }
+
+.error{
+    border-color: red;
+}
 
   
 
